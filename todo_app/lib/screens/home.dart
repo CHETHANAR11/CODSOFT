@@ -10,7 +10,28 @@ class Home extends StatelessWidget {
       backgroundColor: tdBGColor,
       appBar: _buildAppBar(),
       body: Container(
-        child: Text('home screen'),
+        child: Column(children: [
+          Container(
+            decoration: BoxDecoration(
+              color: Colors.white,
+              borderRadius: BorderRadius.circular(20)
+            ),
+            child: TextField(
+              decoration: InputDecoration(
+                contentPadding: EdgeInsets.all(0),
+                prefixIcon: Icon(
+                  Icons.search,
+                  color: tdBlack,
+                  size:20,
+                ),
+                prefixIconConstraints: BoxConstraints(
+                  maxHeight: 20,
+                  maxWidth: 25,
+                )
+              ),
+            ),
+          )
+        ]),
       ),
     );
   }
