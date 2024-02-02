@@ -4,3 +4,6 @@
 [submodule "chat_app"]
 	path = chat_app
 	url = https://github.com/CHETHANAR11/chat_app
+[submodule "meals_app"]
+	path = meals_app
+	url = https://github.com/CHETHANAR11/meals_app
