@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:todo_app/model/todo.dart';
 import 'package:todo_app/screens/home.dart';
 
 void main() {
@@ -16,7 +17,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'To-Do App',
-      home: Home(),
+      home: Home(todo: Todo(id: '011', todoText: 'todoText'),),
     );
   }
 }
