@@ -1,3 +1,6 @@
 [submodule "expense_tracker"]
 	path = expense_tracker
 	url = https://github.com/CHETHANAR11/expense_tracker
+[submodule "chat_app"]
+	path = chat_app
+	url = https://github.com/CHETHANAR11/chat_app
